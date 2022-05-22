@@ -1,0 +1,73 @@
+body {
+  background-image: url(/images/bg-pattern-desktop.svg);
+}
+.logo {
+  margin: 2rem 6rem;
+  padding: 1.5rem 3rem;
+}
+.content {
+  margin: 0 8rem;
+  padding: 1rem;
+  font-family: "Josefin sans", sans-serif;
+}
+h1{
+    width: 30%;
+    line-height: 1.1;
+    letter-spacing: 10px;
+    color:  hsl(0, 36%, 70%);
+    font-size: 3.5rem;
+font-weight: 500;
+    
+}
+span {
+    color: rgb(31, 29, 29);
+    font-weight: 900;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+p {
+width: 43%;
+color:hsl(0, 36%, 70%);
+margin-top: -20px;
+font-weight: 900;
+
+}
+.hero-img {
+    height: 650px;
+    float: right;
+    margin-right: -7px;
+    margin-top: -570px;
+}
+input {
+  width: 34%;
+  padding: 12px;
+  border-radius: 30px;
+  border: 1px solid rgb(219, 207, 207);
+  color: hsl(0, 36%, 70%);
+  margin-top: 15px;
+}
+input:focus{
+  outline: none !important;
+  border-color: red;
+}
+::placeholder{
+  color: hsl(0, 33%, 70%);
+  font-family: "Josefin sans", sans-serif;
+}
+button {
+  margin-top: 15px;
+  position: absolute;
+  margin-left: -47px;
+  padding: 9px 35px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ffd4db, #d17575);
+  border: none;
+}
+button:hover {
+  background: #ffd4db;
+}
+#error-msg{
+  margin-top: 10px;
+  font-size: 13px;
+padding-left: 30px;
+}
